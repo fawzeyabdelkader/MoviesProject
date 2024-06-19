@@ -1,6 +1,6 @@
-<h2>Register</h2>
 
-<div class="w-75 mx-auto">
+<div class="w-75 mx-auto mt-5 py-5">
+  <h2>Register Form </h2>
   <div *ngIf="errorMessage" class="alert alert-danger">{{errorMessage}} </div>
 
   <form (ngSubmit)="submitRegisterForm(registerForm)" [formGroup]="registerForm">
