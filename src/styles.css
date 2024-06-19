@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* :root
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ {
+   --primary-color: #09393c;
+   --secondary-color: #fff;
+   --tertiary-color: #09393c;
+   --quaternary-color: #fff;
+   --quinary-color: #09393c;
+   --senary-color: #fff;
+   --septenary-color: #09393c;
+   --octonary-color: #fff;
+   --nonary-color: #09393c;
+   --decenary-color: #fff;
+   --undecenary-color: #09393c;
+   --duodecenary-color: #fff;
+   --tredecenary-color: #09393c;
+   --quattuordecenary-color: #fff;
+ }
+html, body {
+  background-color: #09393c;
+  color: white;
+}
+
+.bordr
+{
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+} */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root
+{
+  --bg-light:#24baef;
+  --bg-dark:#131722;
+  --border-color:#a8a8a83d;
+  --second-font-color:#949cb0;
+  --white-color:#fff;
+  --selection-color:rgb(125, 180, 125);
+}
+::selection{
+  background-color: var(--selection-color);
+  color: var(--wite-color);
+}
+
+.cursor-pointer{
+  cursor: pointer ;
+}
+a
+{
+  color: var(--white-color);
+  text-decoration: none;
+}
+a:hover
+{
+  color: var(--white-color);
+ }
+
+.bordr
+{
+  height: 1px;
+  background-color: var(--border-color);
+}
+input
+{
+  background-color: transparent !important;
+  border-color: var(--border-color) !important;
+  color: #fff !important;
+}
+
+body
+{
+  background-color: var(--bg-dark)!important;
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+}

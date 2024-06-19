@@ -1,0 +1,9 @@
+.notFound{
+  height: 100vh;
+  background-image: url(src/assets/images/notFound.png);
+  background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 10%;
+   background-color:#10101f;
+   filter: drop-shadow(0 0.2rem 0.25rem rgba(235, 233, 233, 0.2));
+ }

@@ -1,0 +1,10 @@
+footer{
+
+  background-color : rgba(0, 0, 0, 0.395);
+}
+.btn{
+  color: #5f5d5d;
+}
+.btn:hover{
+  color: #09c ;
+}

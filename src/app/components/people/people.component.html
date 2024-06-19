@@ -1,0 +1,32 @@
+ 
+<!-- <ngx-typed-js [strings]="[' Welcome To Trending Movie  .', 'And Welcome To Trending People  And Tv .' ]">
+  <h3 class="typing"></h3>
+</ngx-typed-js>
+
+<ngx-typed-js [strings]="['  Welcome To Trending Movie.', 'And Welcome To Trending Tv.', 'And Welcome To Trending People.']" [shuffle]="true" [typeSpeed]="70">
+    <span class="typing"></span>
+</ngx-typed-js> -->
+<div class="container">
+<div class="row py-5">
+  <div class="col-md-4 d-flex align-items-center">
+    <div>
+      <div class="bordr w-25 mb-4"></div>
+      <h2>Trending<br />Person<br />
+        To Watch Right Now
+      </h2>
+      <p class="text-secondary">most watched person by day </p>
+      <div class="bordr w-100 mt-4"></div>
+    </div>
+
+  </div>
+
+  <div *ngFor="let person of trendingPerson" class="col-md-2">
+    <div class="movie">
+      <a [routerLink]="[ ]">
+        <img [src]="imgPrefix+person.profile_path" class="w-100 rounded-top-3" alt="">
+        <h3 class="h6 my-3">{{person.name}}</h3>
+      </a>
+    </div>
+  </div>
+</div>
+</div>

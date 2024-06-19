@@ -1,0 +1,23 @@
+nav{
+  background-color: #131722 !important;
+  color: #fff !important;
+}
+nav a{
+   /* color: #998686 !important; */
+   cursor: pointer !important;
+}
+nav span.log{
+    cursor: pointer;
+    color: #998686 !important;
+
+}
+nav span.nox{
+  color: #fff ;
+ }
+ .social{
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px dashed red;
+  border-top: 2px dashed red;
+  border-radius: 50%;
+ }
